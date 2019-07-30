@@ -1,28 +1,100 @@
-.App {
-  text-align: center;
+#logo{
+    width:40%;
+  
+}
+#imghello{
+    width: 100%;
+    height: 50%;
+}
+#nomProject{
+    color: #f3671f;
+    font-size:46px; 
+}
+.aingo{
+    color: #d05c62;
+    font-size:76px;
+}
+#navbar{
+    height: 20%;
+}
+#ajoutatelier {
+    display: none;
+}
+#tableau {
+    display: none;
+}
+#des {
+    width: 100px
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+#deconnect{
+    height:20% !important;
+    width:70% !important;
+    margin-right:50%;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+
+#ligne{
+ background-color: #f7cab3;
 }
 
-.App-title {
-  font-size: 1.5em;
+
+#mail{
+    background-color: #f3671f;
+    border-radius:4%;
+    width:350px;
+    padding:8px;
 }
 
-.App-intro {
-  font-size: large;
+#ajoutbouton{
+    background-color: #f07f47;
+    padding-right:41%;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+
+#deconnect{
+    height:20% !important;
+    width: 70% !important;
+    margin-right:60% !important;
+   
+}
+
+#listerbout{
+    background-color: #f07f47;
+}
+
+#feedback-form button[type=submit] {
+    display: block;
+    margin: 2.58vh auto 0;
+     width:64vh; 
+     height: 5.16vh; 
+     border-radius:10%;
+      border: none;
+       color: #eee;
+        font-weight: 700;
+          background: #d05c62 !important;
+           } 
+
+
+
+
+#fichier{ 
+    padding: 10px; 
+    background: rgb(88, 85, 85); 
+    display: table; 
+    color: #fff; 
+    width: 100px; 
+    height: 30px; 
+    border-radius: 2px; 
+    text-align: center; 
+    float: right; 
+    margin-top: 10px; 
+    padding-top: 5px!important; 
+    line-height: 30px;
+    font-weight: bold
+  }
+
+
+#fotera{
+    background-color: #f3671f;
 }
