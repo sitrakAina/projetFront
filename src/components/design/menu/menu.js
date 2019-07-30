@@ -28,18 +28,18 @@ export default class Menu extends Component {
                 <MDBNavbar color="#d05c62" dark expand="md" id="navbar">
                     <MDBNavbarBrand>
                         <div id="contentlogo"><img src="logo.png" alt="logo" id="logo" /></div>
+                        
                     </MDBNavbarBrand>
                     <MDBNavbarToggler onClick={this.toggleCollapse("navbarCollapse3")} />
                     <MDBCollapse id="navbarCollapse3" isOpen={this.state.collapseID} navbar>
                         <MDBNavbarNav left>
-
+                            
                             <MDBNavItem >
                                 <MDBNavLink to="/" className="nav-header">Accueil</MDBNavLink>
                             </MDBNavItem>
                             <MDBNavItem>
-                                <MDBNavLink to="/Atelier" className="nav-header">Ateliers</MDBNavLink>
+                                <MDBNavLink to="/Atelier" className="nav-header">Liste des Ateliers</MDBNavLink>
                             </MDBNavItem>
-
                         </MDBNavbarNav>
                         <MDBNavbarNav right>
                             <MDBNavItem>

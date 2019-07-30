@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import { logoutUser } from "../../actions/authActions";
 import PropAtelier from "../propAtelier/propAtelier";
 import Ajoutatelier from "../newAtelier/NewAtelier"
-
+import './dashboard.css'
 import Menu from "../design/menu/menu"
 
 class Dashboard extends Component {
@@ -26,37 +26,26 @@ onLogoutClick = e => {
       <div className="container-fluid" id="dash">
       <div className=" valign-wrapper">
         <div className="container-fluid">
-        
-     
         <div className="row">
-          <div className="col-md-2">
-            <h4>
-             Henri
-            </h4>
-            <button id="ajoutbouton" onClick={()=>{
+          <div class="vertical-menu">
+            <a id="ajoutbouton" onClick={()=>{
               document.getElementById('ajoutatelier').style.display = "block"
               document.getElementById('tableau').style.display ="none"
-            }}>
+            }} href="#dss">
                 Ajouter
-            </button>
-            <button  id="listerbout" onClick={()=>{
+            </a>
+            <a  id="listerbout" onClick={()=>{
                   document.getElementById('tableau').style.display = "block"
                   document.getElementById('ajoutatelier').style.display = "none"
-              }}>
+              }} href="#dss">
                   Listes des ateliers
-              </button>
-            <button  id="deconnect"
-              style={{
-                width: "150px",
-                borderRadius: "5px",
-                
-                marginTop: "1rem"
-              }}
+              </a>
+            <a  id="deconnect"
               onClick={this.onLogoutClick}
               className="btn btn-large waves-effect waves-light hoverable  accent-3"
-            >
+              href="#dss">
               Deconnecter
-            </button>
+            </a>
           </div>
 
           <div className= "col-md-10">

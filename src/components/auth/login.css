@@ -1,10 +1,9 @@
 #feedback-form {
    width: 64.5vh;
     margin: 0 auto;
-    border-radius:6%;
-     background-color: #f38a45;
+     background-color:#d05c62;
       padding: 2.58vh 6.45vh 5.16vh;
-       box-shadow: 0.129vh 0.516vh 1.29vh 0.129vh #aaa;
+       box-shadow: 0.129vh 0.516vh 1.29vh 0.129vh #f38a45;
         font-family: verdana, sans-serif; color: #eee;
        }
         #feedback-form * { 
@@ -23,7 +22,7 @@
              }
             
                     #feedback-form label {
-                       color: #777;
+                       color: #eee;
                         font-size: 0.8em;
                          color: #eee;
                          } 
