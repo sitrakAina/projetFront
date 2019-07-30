@@ -57,7 +57,7 @@ export default class ListTout extends Component {
                                         </div>
                                     </div>
                                     <span className="spanprix">
-                                        <strong>Prix: {obj.prix} Ar</strong>
+                                        <strong>Prix: {obj.prix} £</strong>
                                     </span><br />
                                     
                                         <button class="btn btn-success" onClick={() => {
